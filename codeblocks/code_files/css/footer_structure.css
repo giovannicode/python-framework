@@ -1,0 +1,10 @@
+#footer
+{
+   width: 975px;
+   height: 250px;
+}
+
+#footer div
+{
+   float: left
+}

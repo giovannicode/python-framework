@@ -1,0 +1,10 @@
+#footer
+{
+   background-color: hsl(42, 100%, 60%) 
+}
+
+#footer div ul
+{
+   list-style-type: none;
+   font-family: Arial;
+}

@@ -1,0 +1,37 @@
+#horinav { 
+width: inherit;
+widtn: 975px;
+height: 50px;
+position: relative;
+float: left;
+}
+
+/******************************************************************************
+  FIRST TIER NAVIGATION
+/*****************************************************************************/
+#horinav ul {
+list-style-type: none;
+}
+
+#horinav ul li {
+float: left;
+position: relative;
+}
+
+#horinav ul li a {
+display: block;
+}
+
+/**************************************************************************
+   SECOND TIER NAVIGATION
+/*************************************************************************/
+#horinav ul li ul
+{
+    display: none;
+}
+
+#horinav ul li:hover ul 
+{
+   display: block;
+   position: absolute;
+}
